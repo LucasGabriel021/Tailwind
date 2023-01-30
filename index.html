@@ -9,8 +9,10 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
           tailwind.config = {
+               // Na aba relacionada a theme é qualquer coisa relacionada ao design visual da página!
                theme: {
-                    exntend: {
+                    // A aba extend ela permite extender novas estlizações as que já existem
+                    extend: {
                          colors: {
                               azul: {
                                    claro: '#c5dfff',
@@ -27,11 +29,11 @@
     </script>
 </head>
 
-<body class="bg-azul-claro">
+<body class="bg-azul-claro font-inter">
 
     <main class="">
 
-        <section class="">
+        <section class="bg-azul-escuro hidden">
             <img class="" src="image/icone-mergulhador.svg" alt="icone de mergulhador">
         </section>
 
